@@ -1,0 +1,90 @@
+@import 'bootstrap-grid.css';
+@import 'media.css';
+@import 'roots.css';
+
+.header{
+    background: linear-gradient(to right,#0292f7,#2bdec8,#00ffff );
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0%, 100% 0, 100% 0%, 100 100%);
+        
+}
+.header__nav{
+padding: 30px;
+}
+.header__nav-logo{
+    color: var(--white);
+    text-transform: uppercase;
+}
+.header__nav-links li{
+    margin-left: 50px;
+}
+.header__nav-links a{
+    color: var(--white);
+    font-size: 20px;
+    transition: 500ms;
+}
+.header__nav-links a:hover{
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.445);
+}
+.header__about{
+margin-top: 50px;
+}
+.header__about-info{
+  padding: 100px;
+  padding-top: 150px;
+  
+}
+.header__about-info h2{
+    font-weight: 700;
+    color: var(--white);
+    font-size: 40px;
+}
+.header__about-info span{
+    font-weight: 300;
+    font-size: 40px;
+}
+.header__about-info p{
+    color: var(--white);
+    font-size: 20px;
+    margin: 30px 0 100px;
+}
+.header__about-info a{
+    color: var(--blue);
+    padding: 15px 40px;
+    background: rgba(255, 255, 255, 0.897);
+    font-size: 17px;
+}
+.header__about-info a:hover{
+    color: black;
+    background: rgba(255, 255, 255, 0.52);
+}
+.main__about{
+    margin-top: 50px;
+}
+.main__about section{
+    padding: 30px;
+}
+.main__about-clin{
+    margin: 100px 0 0 100px;
+}
+.main__about-ref{
+    margin: 100px 100px 0 0;
+}
+.main__about h3{
+    color: var(--black);
+    font-size: 40px;
+    font-weight: 400;
+}
+.main__about p{
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 0;
+
+}
+.main__about a{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--turquoise);
+}
